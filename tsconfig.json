@@ -9,15 +9,7 @@
         "outDir": "dist",
         "baseUrl": ".",
         "paths": {
-            "*": ["node_modules/*"],
-            "@model/*": ["src/models/*"],
-            "@router/*": ["src/routers/*"],
-            "@config/*": ["src/config/*"],
-            "@interface/*": ["src/interfaces/*"],
-            "@strategy/*": ["src/strategies/*"],
-            "@utils/*": ["src/utils/*"],
-            "@controller/*": ["src/controllers/*"],
-            "@pages/*": ["pages/*"]
+            "*": ["node_modules/*"]
         }
     },
     "include": ["src/**/*"]
